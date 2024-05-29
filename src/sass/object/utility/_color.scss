@@ -1,0 +1,17 @@
+@use "../../global" as g;
+
+.u-color-primary {
+  color: g.$color-primary;
+}
+
+.u-color-green {
+color: #00B21B;
+}
+
+.u-color-white {
+  color: #fff;
+}
+
+.u-bg-white {
+  background-color: #fff;
+}

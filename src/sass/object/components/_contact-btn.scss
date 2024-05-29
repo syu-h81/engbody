@@ -1,0 +1,18 @@
+@use "../../global" as g;
+
+.c-contact-btn {
+  background-color: g.$color-primary;
+  color: #fff;
+  margin: 0 auto;
+  font-size: 20px;
+  width: 360px;
+  height: 80px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  @include g.mq(md) {
+    font-size: 13px;
+    height: 52px;
+  }
+}

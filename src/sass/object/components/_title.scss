@@ -1,0 +1,16 @@
+@use "../../global" as g;
+
+.c-title {
+  color: g.$color-primary;
+  font-size: 64px;
+  font-family: "Josefin Sans", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
+  @include g.mq(md) {
+    font-size: 40px;
+  }
+}
+
+.c-text {
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 10px;
+}
